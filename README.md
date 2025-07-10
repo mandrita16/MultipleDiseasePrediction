@@ -1,6 +1,7 @@
 
 
-'''disease_prediction_system/
+'''bash
+disease_prediction_system/
 ├── data/
 │   ├── raw/
 │   │   └── disease_dataset.csv
