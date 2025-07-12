@@ -23,12 +23,20 @@ A lightning-fast, intelligent system that predicts **multiple health risks** in 
 
 ### 🧪 Step-by-Step Setup
 
-> 🧭 **1. Clone this repository**
+🧭 **1. Clone this repository**
 ```bash
 git clone https://github.com/mandrita16/MultipleDiseasePrediction.git
 cd MultipleDiseasePrediction
 ```
 
 🔒 **2. Create a virtual environment**
+```bash
+python -m venv venv
+```
+🟢 **3. Activate the environment**
+```bash
+.\venv\Scripts\Activate
+```
+
 
 
