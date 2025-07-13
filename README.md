@@ -93,20 +93,29 @@ You'll see a beautiful and responsive form where you can enter patient details t
 ## 📈 Example Usage
 
 Detect risks for Diabetes, Heart Disease, COPD, Tuberculosis, Migraine, Hepatitis, etc.
+
+
 Just fill in age, BMI, symptoms, and medical history—get predictions instantly.
 
 ## 📌 Notes
 
 *Make sure your dataset contains meaningful numeric + categorical data for features, and binary values for target disease columns.
+
+
 *You can customize the form fields in app.py → feature_list.
 
 ## 🏁 Ready to Use in Under 3 Minutes!
 
 1)Clone
+
 2)Install
+
 3)Add dataset
+
 4)Run: python run.py
+
 5)Predict!
+
 ```bash
 # Clone the repo
 git clone https://github.com/mandrita16/MultipleDiseasePrediction.git
@@ -126,15 +135,20 @@ python run.py
 ```
 
 ## ⚠️ Troubleshooting
+
 🛑 Prediction not working?
+
 Ensure your dataset has all required feature columns and no string/invalid data in numeric fields.
 
 🛑 Decimal age or negative values?
+
 Use whole numbers for Age, and only use decimals for features like BMI or Sugar Level.
 
 🛑 400 Bad Request?
+
 This usually means there's a mismatch between form input names and trained model features.
 
 
 Kindly give a star 
+
 Made with ❤️ by Mandrita Dasgupta
