@@ -70,7 +70,23 @@ http://localhost:5000
 ```
 You'll see a beautiful and responsive form where you can enter patient details to get disease predictions.
 
+## Supported Features
+✅ Auto feature & disease detection
+✅ Real-time multi-disease prediction
+✅ Dropdowns for categorical input (Gender, Smoking, etc.)
+✅ Instant confidence scoring (risk: LOW / HIGH)
+✅ Handles messy/partial data with preprocessing
+✅ Responsive UI - no HTML files needed
 
+
+| Tool          | Role                 |
+| ------------- | -------------------- |
+| Python        | Core programming     |
+| Flask         | Web framework        |
+| Pandas, NumPy | Data handling        |
+| Scikit-learn  | ML utilities         |
+| XGBoost       | Model backend        |
+| joblib        | Model saving/loading |
 
 
 
