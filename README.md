@@ -141,6 +141,7 @@ python run.py
 
 ## ⚠️ Troubleshooting
 
+```bash
 🛑 Prediction not working?
 
 Ensure your dataset has all required feature columns and no string/invalid data in numeric fields.
@@ -152,7 +153,7 @@ Use whole numbers for Age, and only use decimals for features like BMI or Sugar 
 🛑 400 Bad Request?
 
 This usually means there's a mismatch between form input names and trained model features.
-
+```
 
 Kindly give a star 
 
