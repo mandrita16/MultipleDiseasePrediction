@@ -78,6 +78,7 @@ You'll see a beautiful and responsive form where you can enter patient details t
 ✅ Handles messy/partial data with preprocessing
 ✅ Responsive UI - no HTML files needed
 
+ ## 🛠️Tech Stack
 
 | Tool          | Role                 |
 | ------------- | -------------------- |
@@ -89,6 +90,39 @@ You'll see a beautiful and responsive form where you can enter patient details t
 | joblib        | Model saving/loading |
 
 
+## 📈 Example Usage
 
+Detect risks for Diabetes, Heart Disease, COPD, Tuberculosis, Migraine, Hepatitis, etc.
+Just fill in age, BMI, symptoms, and medical history—get predictions instantly.
 
+## 📌 Notes
 
+*Make sure your dataset contains meaningful numeric + categorical data for features, and binary values for target disease columns.
+*You can customize the form fields in app.py → feature_list.
+
+## 🏁 Ready to Use in Under 3 Minutes!
+
+1)Clone
+2)Install
+3)Add dataset
+4)Run: python run.py
+5)Predict!
+```bash
+# Clone the repo
+git clone https://github.com/mandrita16/MultipleDiseasePrediction.git
+cd MultipleDiseasePrediction
+
+# Create and activate virtual environment
+python -m venv venv
+.\venv\Scripts\activate   # Windows
+# OR
+source venv/bin/activate # macOS/Linux
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python run.py
+```
+Kindly give a star 
+Made with ❤️ by Mandrita Dasgupta
