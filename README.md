@@ -72,10 +72,15 @@ You'll see a beautiful and responsive form where you can enter patient details t
 
 ## Supported Features
 ✅ Auto feature & disease detection
+
 ✅ Real-time multi-disease prediction
+
 ✅ Dropdowns for categorical input (Gender, Smoking, etc.)
+
 ✅ Instant confidence scoring (risk: LOW / HIGH)
+
 ✅ Handles messy/partial data with preprocessing
+
 ✅ Responsive UI - no HTML files needed
 
  ## 🛠️Tech Stack
