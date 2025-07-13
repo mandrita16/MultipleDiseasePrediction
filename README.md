@@ -154,6 +154,7 @@ Use whole numbers for Age, and only use decimals for features like BMI or Sugar 
 
 This usually means there's a mismatch between form input names and trained model features.
 ```
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/94e470b6-5440-41a4-8ff6-bd48ff5b637a" />
 
 Kindly give a star 
 
