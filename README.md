@@ -124,5 +124,17 @@ pip install -r requirements.txt
 # Run the application
 python run.py
 ```
+
+## ⚠️ Troubleshooting
+🛑 Prediction not working?
+Ensure your dataset has all required feature columns and no string/invalid data in numeric fields.
+
+🛑 Decimal age or negative values?
+Use whole numbers for Age, and only use decimals for features like BMI or Sugar Level.
+
+🛑 400 Bad Request?
+This usually means there's a mismatch between form input names and trained model features.
+
+
 Kindly give a star 
 Made with ❤️ by Mandrita Dasgupta
